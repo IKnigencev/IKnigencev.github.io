@@ -1,43 +1,65 @@
 body {
+	width:100%;
+	height: 100%;
 	margin: 0px;
-	background: linear-gradient(#9A5044, #E8D9A9) fixed;
+	background: grey;
 }
 #header{
-	padding:1%;
+	
+	padding: 1%;
 	width: 100%;
-	height: 72pt;
-	background: linear-gradient(#4C4C4C, #b5b3a8) fixed;
+	height: 40pt;
+	background: linear-gradient(to right, #4C4C4C, #CEAD78);
 	position: fixed;
-	border-radius: 0 0 31px 31px;
-	box-shadow:inset -2px -2px 2px 0 rgba(0,0,0,.5), 
-             inset 2px 2px 2px 0 rgba(255,255,255,0.5);
+	border-radius: 0 0 20px 20px;
+	box-shadow: 10px 10px 10px #4C4C3A;
 	z-index: 1000;
 
 
 }
 
 #scroll {
-	margin-top: 50 pt;
-	margin-left:10%;
-	margin-right: 10%;
-	width: 80%;
+	padding-top: 50pt;
+	width: 100%;
 	height: 1000pt;
-	background: gray;
+	margin: 0px;
+	
+}
+
+
+.team{
+	color: #DFDFDF;
+	width: 100%;
+	background-color: #4C4C4C;
+	padding-bottom: 1%;
+	float: right;
+}
+
+.aboutteam{
+	text-align: center;
+	margin-left: 350pt;
+	padding-right: 200pt;
+}
+
+.neural{
+	float: right;
+	
 }
 
 .firstscreen{
 	color: #DFDFDF;
 	width:100%;
-	height: 60%;
-	background: #7393BA;
+	height: 45%;
+	background: linear-gradient(to right, #7393BA, #CEAD78);
+	
+	
 }
 
 
 .secondscreen{
 	color: #DFDFDF;
 	width: 100%; 
-	height: 60%;
-	text-align:center;
+	height: 45%;
 	background: #4C4C4C;
 	
 }
@@ -47,7 +69,8 @@ body {
 	width: 100%;
 	height: 60%;
 	text-align:center;
-	background: #7393BA;
+	background-image: url(three.png);
+	background-size: cover;
 	
 }
 		
@@ -62,8 +85,8 @@ body {
 .fifthscreen{
 	color: #DFDFDF;
 	width: 100%;
-	height: 60%;
-	background: #7393BA;
+	height: 50%;
+	background: linear-gradient(to right, #7393BA, #CEAD78);
 }
 		
 .sixthscreen{
@@ -77,18 +100,19 @@ body {
 	color: #DFDFDF;
 	width: 100%;
 	height: 60%;
-	background: #4C4C4C;
+	background: linear-gradient(to right, #7393BA, #CEAD78);
 }
 
-.logo{
-	float: left;
-	margin-left: 1.5%;
-	
+.logoo{
+	float:left;
+	display:block;
+    max-width: 250px;
+    margin: 0 auto;
+    width: 99%;
 }
 .inmenu{
 	font-size: 1.5em;
-	padding-top: 2%;
-	padding-right:10%;
+	padding: 1%;
 	margin-left: 75%;
 	padding-bottom:2%;
 	width: 30%;
@@ -98,22 +122,22 @@ body {
 }
 
 .mia1{
-	margin-left:45%;
-	margin-right: 35%;
 	position: absolute;
 	width: 25%;
-	left: 0.000000001%;	
 	top: 14%;
-	right: 50%;
+	left: 42%;
+	right: 45%;
 	padding: 2%;
-
+	box-shadow: 10px 10px 10px #4C4C3A;
+	
 	background: #505050;
 	border-radius: 31px;
 }
 
 .photomia{
-	margin-left: 80%;
-	margin-right: 10%;
+	float: right;
+	right:3%;
+	margin-top: 20%;
 	
 }
 
@@ -121,8 +145,76 @@ body {
 	list-style: none;
 	position: absolute;
 	top: 20%;
-	left: 12%;
+	left: 4%;
+}
+
+li{
+	margin:10pt;
+	padding: 20pt;
+	background-color: #6AA9CA;
+	border-radius:20pt;
+	box-shadow: 5px 5px 5px #4C4C3A;
+}
+
+.wow{
+	width: 80%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.wow1{
+	float: left;
+	margin-left:8%;
+	
+}
+
+.wow2{
+	float: right;
+	margin-right:8%;
+}
+
+.firsttext{
+	padding-top: 100pt;
+	padding-left: 55pt;
+	padding-right: 55pt;
+	padding-bottom: 10pt;
+	text-align: center;
+	
+}
+
+.secondtext{
+	padding-top: 40pt;
+	padding-left: 55pt;
+	padding-right: 55pt;
+	padding-bottom: 10pt;
+	text-align: center;
+	
+}
+
+.severalfacts{
+	padding-top: 40pt;
+	padding-left: 55pt;
+	padding-right: 55pt;
+	padding-bottom: 30pt;
+	text-align: center;
+}
+
+.factssome{
+	float: left;
+	margin-top: 10%;
+	margin-left:10%;
+}
+
+.factselse{
+	float: right;
+	margin-top: 20%;
+	margin-right:7%;
 }
 
 
-
+p{
+	top: 20%;
+	float: left;
+	margin: 5pt;
+	padding: 5pt;
+}
