@@ -1,0 +1,128 @@
+body {
+	margin: 0px;
+	background: linear-gradient(#9A5044, #E8D9A9) fixed;
+}
+#header{
+	padding:1%;
+	width: 100%;
+	height: 72pt;
+	background: linear-gradient(#4C4C4C, #b5b3a8) fixed;
+	position: fixed;
+	border-radius: 0 0 31px 31px;
+	box-shadow:inset -2px -2px 2px 0 rgba(0,0,0,.5), 
+             inset 2px 2px 2px 0 rgba(255,255,255,0.5);
+	z-index: 1000;
+
+
+}
+
+#scroll {
+	margin-top: 50 pt;
+	margin-left:10%;
+	margin-right: 10%;
+	width: 80%;
+	height: 1000pt;
+	background: gray;
+}
+
+.firstscreen{
+	color: #DFDFDF;
+	width:100%;
+	height: 60%;
+	background: #7393BA;
+}
+
+
+.secondscreen{
+	color: #DFDFDF;
+	width: 100%; 
+	height: 60%;
+	text-align:center;
+	background: #4C4C4C;
+	
+}
+
+.thirdscreen{
+	color: #DFDFDF;
+	width: 100%;
+	height: 60%;
+	text-align:center;
+	background: #7393BA;
+	
+}
+		
+.fourthscreen{
+	color: #DFDFDF;
+	width: 100%;
+	height: 60%;
+	background: #4C4C4C;
+	
+}
+
+.fifthscreen{
+	color: #DFDFDF;
+	width: 100%;
+	height: 60%;
+	background: #7393BA;
+}
+		
+.sixthscreen{
+	color: #2C2C2;
+	width: 100%;
+	height: 60%;
+	background: #D8D8D8;
+}
+		
+.seventhscreen{
+	color: #DFDFDF;
+	width: 100%;
+	height: 60%;
+	background: #4C4C4C;
+}
+
+.logo{
+	float: left;
+	margin-left: 1.5%;
+	
+}
+.inmenu{
+	font-size: 1.5em;
+	padding-top: 2%;
+	padding-right:10%;
+	margin-left: 75%;
+	padding-bottom:2%;
+	width: 30%;
+	color: #DFDFDF;
+	
+	
+}
+
+.mia1{
+	margin-left:45%;
+	margin-right: 35%;
+	position: absolute;
+	width: 25%;
+	left: 0.000000001%;	
+	top: 14%;
+	right: 50%;
+	padding: 2%;
+
+	background: #505050;
+	border-radius: 31px;
+}
+
+.photomia{
+	margin-left: 80%;
+	margin-right: 10%;
+	
+}
+
+.link{
+	list-style: none;
+	position: absolute;
+	top: 20%;
+	left: 12%;
+}
+
+
+
