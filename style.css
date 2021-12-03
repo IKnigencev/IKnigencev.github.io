@@ -3,8 +3,8 @@ body {
 	height: auto;
 	margin: 0px;
 	background: #7393BA;
+	font-family : Didact Gothic;
 
-	
 }
 #header{
 	overflow: hidden;
@@ -27,6 +27,7 @@ body {
 	width: 100%;
 	height: 1000pt;
 	margin: 0px;
+	position: relative;
 	
 }
 
@@ -78,9 +79,9 @@ body {
 	display: block;
 	color: #DFDFDF;
 	width: 100%;
-	height: 500pt;
+	height: 700pt;
 	text-align:center;
-	background-image: url(Фото/three.png);
+	background-image: url(Фото/neural-networks-ai.jpg);
 	background-size: cover;
 	
 }
@@ -90,7 +91,7 @@ body {
 	display: block;
 	color: #DFDFDF;
 	width: 100%;
-	height: 800pt;
+	height: 500pt;
 	background: #4C4C4C;
 	
 }
@@ -144,6 +145,7 @@ body {
 	margin-left: 75%;
 	margin-bottom: 1%;
 	margin-right:1%;
+	padding-right:2pt;
 	width: 25%;
 	height: 5%;
 	color: #DFDFDF;
@@ -239,6 +241,24 @@ li{
 	
 }
 
+.factssome > ol > li {
+	padding:2pt;
+	width:auto;
+	margin:20pt;
+	background-color: #6AA9CA;
+	border-radius:20pt;
+	box-shadow: 5px 5px 5px #4C4C3A;
+}
+
+.factselse > ol > li {
+	background-color: #6AA9CA;
+	border-radius:20pt;
+	box-shadow: 5px 5px 5px #4C4C3A;
+	padding:2pt;
+	width:auto;
+	margin:25pt;
+}
+
 .severalfacts{
 	padding-top: 40pt;
 	padding-left: 55pt;
@@ -248,15 +268,22 @@ li{
 }
 
 .factssome{
+	font-size: cover;
 	float: left;
+	width:15%;
 	margin-top: 10%;
-	margin-left:10%;
+	margin-left:0%;
+	margin-bottom:45%;
+	width:35%;
 }
 
 .factselse{
+	font-size: cover;
 	float: right;
-	margin-top: 20%;
-	margin-right:7%;
+	margin-top: 25%;
+	margin-right:0%;
+	margin-bottom: 40%;
+	width:35%;
 }
 
 
@@ -268,22 +295,33 @@ p{
 }
 
 .whatcan{
-	margin-left: 40%;
-	margin-right: 40%;
-	border-radius: 2px;
-	width: 20%;
-	height: 7%;
-	background-color: #4C4C4C
+	font-size: cover;
+	margin-top: 2%;
+	margin-left: 35%;
+	margin-right: 35%;
+	width: 30%;
+	height: 5%;
+	background-color: #4C4C4C;
+	box-shadow: 5px 5px 5px #4C4C3A;
+	border-radius:10pt;
+
 }
 
+.line2{
+	margin-left:20pt;
+}
 
 .point{
 	float: left;
+	margin-top: 4%;
+	margin-left:0px;
 	
 }
 .need{
-	float: center;
-	font-size: 50%;
+	font-size: auto;
+	margin-right: 100pt;
+	margin-top: 4%;
+	margin-left:1%;
 }
 .money{
 	float: left;
@@ -331,3 +369,6 @@ div {
 	text-align: -webkit-center;
 }
 
+p {
+	padding: 1pt;
+}
