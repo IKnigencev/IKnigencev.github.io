@@ -41,6 +41,7 @@ body {
 	margin-right: 10%;
 	margin-top: 8%;
 	width:20%;
+	
 }
 
 .neural{
@@ -86,11 +87,11 @@ body {
 }
 		
 .fourthscreen{
-	overflow: scroll;
+	overflow-x:hidden; 
 	display: block;
 	color: #DFDFDF;
 	width: 100%;
-	height: 500pt;
+	height:400pt;
 	background: #4C4C4C;
 	
 }
@@ -125,10 +126,12 @@ body {
 .team{
 	overflow: hidden;
 	display: block;
+
 	color: #DFDFDF;
 	width: 100%;
 	height: 350pt;
 	background: linear-gradient(to right, #4C4C4C, #CEAD78);
+	z-index:-2;
 }
 
 .logoo{
@@ -191,6 +194,23 @@ body {
 
 .line8{
 	margin-right:10%;
+}
+
+.line9{
+	margin-left:10%;
+
+}
+
+.line10{
+	margin-right:10%;
+}
+
+.whereneed{
+	margin-left:35%;
+	margin-right:35%;
+	width:30%;
+	margin-top:1%;
+	font-size:1.5em;
 }
 
 .balls{
@@ -280,6 +300,7 @@ li{
 	width: 80%;
 	margin-left:10%;
 	margin-right:10%;
+	font-size: 120%;
 }
 
 .wow1{
@@ -299,6 +320,7 @@ li{
 	padding-right: 55pt;
 	padding-bottom: 10pt;
 	text-align: center;
+	font-size: 120%;
 	
 }
 
@@ -308,6 +330,7 @@ li{
 	padding-right: 55pt;
 	padding-bottom: 10pt;
 	text-align: center;
+	font-size: 120%;
 	
 }
 
@@ -335,10 +358,11 @@ li{
 	padding-right: 55pt;
 	padding-bottom: 30pt;
 	text-align: center;
+	font-size: 120%;
 }
 
 .factssome{
-	font-size: cover;
+	font-size: 125%;
 	float: left;
 	width:15%;
 	margin-top: 10%;
@@ -348,7 +372,7 @@ li{
 }
 
 .factselse{
-	font-size: cover;
+	font-size: 125%;
 	float: right;
 	margin-top: 25%;
 	margin-right:0%;
@@ -357,15 +381,10 @@ li{
 }
 
 
-p{
-	top: 20%;
-	float: left;
-	margin: 5pt;
-	padding: 5pt;
-}
+
 
 .whatcan{
-	font-size: cover;
+	font-size: 130%;
 	margin-top: 2%;
 	margin-left: 35%;
 	margin-right: 35%;
@@ -385,17 +404,38 @@ p{
 	float: left;
 	margin-top: 4%;
 	margin-left:0px;
+	margin-right:2%;
+	width:50%;
+	height:50%;
 	
 }
 .need{
-	font-size: auto;
-	margin-right: 100pt;
+	font-size: 130%;
+	margin-right: 3%;
 	margin-top: 4%;
-	margin-left:1%;
+	margin-left:40%;
+	width: 60%;
+	height: 80%;
 }
 .money{
 	float: left;
 	margin-top:10%;
+	margin-right:10%;
+	margin-left:10%;
+}
+.salary{
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:10%;
+	font-size:200%;
+	padding:4%;
+	
+}
+
+.city{
+	margin-top:50pt;
+	font-size:200%;
+	
 }
 
 .plusminus{
@@ -410,24 +450,24 @@ p{
 }
 .plus{
 	box-shadow: 3px 3px 3px 3px #7393BA;
-	font-size:1em;
+	font-size:1.5em;
 	float: left;
 	padding:1%;
 	margin-top: 8%;
 	margin-left:10%;
-	width:150pt;
+	width:25%;
 	height: 150pt;
 	border-radius: 10px;	
 	background: #7393BA;
 }
 .minus{
 	box-shadow: 3px 3px 3px 3px #7393BA;
-	font-size:1em;
+	font-size:1.5em;
 	padding:1%;
 	float: right;
 	margin-right: 10%;
 	margin-top: 8%;
-	width:150pt;
+	width:25%;
 	height: 150pt;
 	background: #7393BA;
 	border-radius: 10px; 
@@ -448,14 +488,12 @@ div {
 	text-align: -webkit-center;
 }
 
-p {
-	padding: 1pt;
-}
+
 
 .miaphoto2{
 	width:15%;
 	height: 24%;
 	z-index:-1;
-	margin-top:31%;
+	margin-top:26%;
 	float:center;
 }
