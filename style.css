@@ -140,7 +140,6 @@ body {
 	width: 100%;
 	height: 550pt;
 	background: white;
-	box-shadow:inset 0 0 20px black;
 }
 
 				
@@ -660,6 +659,12 @@ body {
 
 	
 }
+
+.photoplus{
+	margin-left:45%;
+	margin-right:45%;
+}
+
 .plus{
 	box-shadow: 3px 3px 3px 3px #7393BA;
 	font-size: 30px;
@@ -675,6 +680,11 @@ body {
 	-webkit-transform: scale(0.98);
 	-ms-transform: scale(0.98);
 	transform: scale(0.98);
+}
+
+.photominus{
+	margin-left:45%;
+	margin-right:45%;
 }
 
 .minus{
