@@ -317,17 +317,16 @@ h3{
 }
 
 .need {
-	text-align:left;
 	margin-top:2%;
 	margin-right:5%;
 	margin-left:40%;
 	width: 55%;
-	height: 60%;
+	height: 51%;
 	
 }
 
 .need > ul{
-	text-align:right;
+	text-align:left;
 	padding:0px;
 	font-size:145%;
 	width: 100%;
@@ -356,7 +355,7 @@ h3{
 	height: 10%;
 	margin-right:10%;
 	margin-left:10%;
-	margin-top:5%;
+	margin-top:20%;
 }
 .salary{
 	text-align:center;
