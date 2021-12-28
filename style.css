@@ -235,7 +235,7 @@ body {
 	display: block;
 	color: #DFDFDF;
 	width: 100%; 
-	height: 71%;
+
 	background: #4C4C4C;
 
 	
@@ -296,36 +296,44 @@ body {
 	display: block;
 	color: #DFDFDF;
 	width: 100%;
-	height: 1500pt;
 	background: #4C4C4C;
-	
+	padding-bottom:5%;
 }
 
-.point{
-	float:left;
-	margin-top: 4%;
-	margin-left:0px;
-	margin-right:0px;
-	width:55%;
-	height:51%;
-	
-}
 
 h3{
 	padding:0px;
 	margin:0px;
 }
 
-.need {
-	margin-top:2%;
+.pointss{
+	margin-left:5%;
 	margin-right:5%;
-	margin-left:40%;
-	width: 55%;
-	height: 51%;
-	
+	width:90%;
 }
 
-.need > ul{
+.tab{
+	width:100%;
+}
+
+.tdd{
+	padding:0px;
+	width:30%;
+	height:10%;
+}
+
+.tddd{
+	width:70%;
+	height:20%;
+}
+
+.point{
+	margin-left: 10%;
+	height:40%;
+	width:90%;
+}
+
+.pi{
 	text-align:left;
 	padding:0px;
 	font-size:145%;
@@ -333,11 +341,22 @@ h3{
 	height: 100%;
 	margin-right:5%;
 }
-.need > ul >li{
-	margin-bottom:8%;
+
+.pi > li {
+	margin-bottom:3%;
 }
 
-.money > table{
+@media all and (min-width: 1200px){
+	.pi > li {
+		margin-bottom:6.5%;
+	}
+	.point{
+		margin-left: 37%;
+		height:70%;
+		width:60%;
+	}
+}
+.tabl{
 	float:right;
 	text-align: center;
 	font-size:120%;
@@ -351,29 +370,29 @@ h3{
 }
 
 .money{
-	width:80%;
+	width:68%;
 	height: 10%;
-	margin-right:10%;
-	margin-left:10%;
-	margin-top:20%;
+	margin-right:20%;
+	margin-left:12%;
+	margin-top:2%;
 }
+
 .salary{
 	text-align:center;
-	width:30%;
+	padding-left:5%;
+	width:45%;
 	height: 30%;
-	float:left;
 	font-size:140%;
-	margin-top:7%;
 }
 
 .city{
 	text-align:center;
 	font-size:130%;
 	float:right;
-	margin-top:8%;
-	margin-left:5%;
-	margin-right:5%;
-	width:90%;
+	margin-top:2%;
+	margin-left:20%;
+	margin-right:20%;
+	width:60%;
 }
 
 
@@ -388,7 +407,7 @@ h3{
 	display: block;
 	color: #DFDFDF;
 	width: 100%;
-	height: 70%;
+	padding-bottom: 5%;
 	background: #4C4C4C;
 	box-shadow:inset 0 0 20px black;
 	z-index:-10;
@@ -399,6 +418,10 @@ h3{
 	box-shadow:inset 0 0 25px black;
 }
 
+.fifthscreen > table{
+	width:100%;
+	height:100%;
+}
 
 .plusminus{
 	font-size: 2rem;
@@ -413,9 +436,9 @@ h3{
 }
 
 .photoplus{
-	width:10%;
-	margin-left:35%;
-	margin-right:45%;
+	width:7%;
+	margin-left:40%;
+	margin-right:46.5%;
 }
 
 .plus{
@@ -424,9 +447,9 @@ h3{
 	float: left;
 	padding:1%;
 	margin-top: 8%;
-	margin-left:10%;
+	margin-left:15%;
 	width:25%;	
-	height:30%;
+	height:200pt;
 	background: #7393BA;
 }
 .plus:hover{
@@ -436,9 +459,9 @@ h3{
 }
 
 .photominus{
-	width:10%;
-	margin-left:39%;
-	margin-right:35%;
+	width:7%;
+	margin-left:40%;
+	margin-right:46.5%;
 }
 
 .minus{
@@ -446,10 +469,10 @@ h3{
 	font-size: 100%;
 	padding:1%;
 	float: right;
-	margin-right: 10%;
+	margin-right: 15%;
 	margin-top: 8%;
 	width:25%;
-	height:30%;
+	height:200pt;
 	background: #568CA8;
 }
 .minus:hover{
@@ -458,11 +481,19 @@ h3{
 	transform: scale(0.98);
 }
 
+.firstlineplus{
+	margin-bottom: 8%;
+}
+
+.firstlineminus{
+	margin-bottom: 8%;
+}
+
 .miatext2{	
 	width:90%;
 	height:20%;
 	z-index:2;
-	margin-top:33%;
+	margin-top:1%;
 	margin-left: 5%;
 	margin-right:5%;
 }
@@ -471,7 +502,9 @@ h3{
 	text-align: center;
 	font-size:160%;
 	padding:10px;
-	width:100%;
+	margin-left:5%;
+	margin-right:5%;
+	width:90%;
 	height:45%;
 	border-radius:2px;
 	box-shadow: 0 0 3px #7393BA;
@@ -485,7 +518,7 @@ h3{
 	margin-bottom:-3%;
 	z-index:1;
 	width:12%;
-	height: 66%;
+	height: 70%;
 	margin-left:45%;
 	margin-right:45%;
 	
@@ -503,8 +536,62 @@ h3{
 	display: block;
 	color: #2C2C2;
 	width: 100%;
-	height: 500pt;
+	
 	background: white;
+}
+
+.vh1{
+	
+}
+
+.vh1:hover{
+	-webkit-transform: scale(0.98);
+	-ms-transform: scale(0.98);
+	transform: scale(0.98);
+}
+
+.vh2{
+	
+}
+
+.vh2:hover{
+	-webkit-transform: scale(0.98);
+	-ms-transform: scale(0.98);
+	transform: scale(0.98);
+}
+
+.vh3{
+	
+}
+
+.vh3:hover{
+	-webkit-transform: scale(0.98);
+	-ms-transform: scale(0.98);
+	transform: scale(0.98);
+}
+.vh4{
+	
+}
+.vh4:hover{
+	-webkit-transform: scale(0.98);
+	-ms-transform: scale(0.98);
+	transform: scale(0.98);
+}
+.vh5{
+	
+}
+.vh5:hover{
+	-webkit-transform: scale(0.98);
+	-ms-transform: scale(0.98);
+	transform: scale(0.98);
+}
+.vh6{
+	
+}
+.vh6:hover{
+	-webkit-transform: scale(0.98);
+	-ms-transform: scale(0.98);
+	transform: scale(0.98);
 }
 
 .sixthscreen > table{
@@ -525,7 +612,7 @@ h3{
 	display: block;
 	color: #DFDFDF;
 	width: 100%;
-	height: 1250pt;
+
 	background: #4C4C4C;
 	box-shadow:inset 0 0 20px black;
 	
@@ -538,10 +625,9 @@ h3{
 .balls{
 	text-align:center;
 	margin-top: 2%;
-	width:30%;
-	margin-left:35%;
-	font-size:30px;
-	margin-right: 35%;
+	margin-left:32.5%;
+	font-size:140%;
+	margin-right: 32.5%;
 	margin-bottom:2%;
 }
 
@@ -557,6 +643,7 @@ h3{
 .seventhscreen > table{
 	margin-right: 5%;
 	margin-left:5%;
+	width:90%;
 	margin-bottom:15%;
 	font-size: 18px;
 	height:30%;
@@ -572,7 +659,7 @@ h3{
 	display: block;
 	color: #DFDFDF;
 	width: 100%;
-	height: 350pt;
+	padding-bottom: 5%;
 	background: #4C4C4C;
 	z-index:-2;
 	
@@ -668,7 +755,7 @@ h3{
 	font-size: 115%;
 	color: #DFDFDF;
 	width: 80%;
-	height:40%;
+	height:auto;
 	margin-top: 2%;
 	margin-left: 5%;
 	margin-right: 65%;
@@ -694,6 +781,7 @@ h3{
 }
 
 .mia{
+	margin-top:-18%;
 	margin-left:60%;
 	width:200pt;
 	height:200pt;
@@ -733,7 +821,7 @@ h3{
 .firsttext{
 	margin-left: 12%;
 	margin-right: 12%;
-	padding-top: 100pt;
+	padding-top: 60pt;
 	padding-bottom: 10pt;
 	text-align: center;
 	font-size: 140%;
@@ -764,7 +852,7 @@ h3{
 	width: 80%;
 	margin-left:10%;
 	margin-right:10%;
-	margin-bottom:10%;
+	margin-bottom:7%;
 	font-size: 140%;
 }
 
@@ -826,6 +914,7 @@ h3{
 	width: 30%;
 	padding:10px;
 	background-color: #4C4C4C;
+	box-shadow:0 0 8px black;
 }
 
 
