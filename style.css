@@ -444,6 +444,7 @@ h3{
 .plus{
 	box-shadow: 3px 3px 3px 3px #7393BA;
 	font-size: 100%;
+	text-align:left;
 	float: left;
 	padding:1%;
 	margin-top: 8%;
@@ -452,10 +453,32 @@ h3{
 	height:200pt;
 	background: #7393BA;
 }
+
 .plus:hover{
 	-webkit-transform: scale(0.98);
 	-ms-transform: scale(0.98);
 	transform: scale(0.98);
+}
+
+@media all and (min-width: 1200px){
+	.plus{
+		box-shadow: 3px 3px 3px 3px #7393BA;
+		font-size: 130%;
+		text-align:left;
+		float: left;
+		padding:1%;
+		margin-top: 8%;
+		margin-left:15%;
+		width:25%;	
+		height:210pt;
+		background: #7393BA;
+	}
+
+	.plus:hover{
+		-webkit-transform: scale(0.98);
+		-ms-transform: scale(0.98);
+		transform: scale(0.98);
+	}
 }
 
 .photominus{
@@ -467,6 +490,7 @@ h3{
 .minus{
 	box-shadow: 3px 3px 3px 3px #568CA8;
 	font-size: 100%;
+	text-align:left;
 	padding:1%;
 	float: right;
 	margin-right: 15%;
@@ -479,6 +503,26 @@ h3{
 	-webkit-transform: scale(0.98);
 	-ms-transform: scale(0.98);
 	transform: scale(0.98);
+}
+
+@media all and (min-width: 1200px){
+	.minus{
+		box-shadow: 3px 3px 3px 3px #568CA8;
+		font-size: 130%;
+		text-align:left;
+		padding:1%;
+		float: right;
+		margin-right: 15%;
+		margin-top: 8%;
+		width:25%;
+		height:210pt;
+		background: #568CA8;
+	}
+	.minus:hover{
+		-webkit-transform: scale(0.98);
+		-ms-transform: scale(0.98);
+		transform: scale(0.98);
+	}
 }
 
 .firstlineplus{
