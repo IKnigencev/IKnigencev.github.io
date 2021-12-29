@@ -436,12 +436,13 @@ h3{
 }
 
 .photoplus{
-	width:7%;
+	width:6%;
 	margin-left:40%;
 	margin-right:46.5%;
 }
 
 .plus{
+	font-family: Didact Gothic;
 	box-shadow: 3px 3px 3px 3px #7393BA;
 	font-size: 100%;
 	text-align:left;
@@ -482,7 +483,7 @@ h3{
 }
 
 .photominus{
-	width:7%;
+	width:6%;
 	margin-left:40%;
 	margin-right:46.5%;
 }
