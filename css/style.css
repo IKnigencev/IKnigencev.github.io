@@ -2,12 +2,15 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: Andale Mono, monospace;
+    width: 100%;
     background-color: #fff;
+    font-size: 20px;
 }
 
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 div, a, header, section, footer, img, li, ul {
@@ -28,10 +31,14 @@ div, a, header, section, footer, img, li, ul {
     width: 100%;
     background-color: rgb(202, 202, 202);
     z-index: 10;
+    border-width:1;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
 }
 
 .logo {
     margin: auto auto;
+    font-size: 25px;
 }
 
 .menu {
@@ -56,6 +63,7 @@ div, a, header, section, footer, img, li, ul {
     display: inline-block;
     margin: 0 auto;
     padding: 20px;
+    
 }
 
 .link {
@@ -67,12 +75,8 @@ div, a, header, section, footer, img, li, ul {
     text-decoration: underline;
 }
 
-.dream {
-    text-align: center;
-    display: block;
-}
-
 #aboutMe {
+    width: 100%;
     padding: 100px 0;
     background-color: rgb(202, 202, 202);
 }
@@ -94,11 +98,11 @@ div, a, header, section, footer, img, li, ul {
 }
 
 .hi {
-    margin: 5px 50px;
+    margin: 5px 40px;
 }
 
 .life {
-    margin: 15px 50px;
+    margin: 15px 40px;
 }
 
 .mySkill {
@@ -109,11 +113,18 @@ div, a, header, section, footer, img, li, ul {
 .description {
     display: flex;
     justify-content: space-between;
+    border-width:1;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
 }
 
 .description-skill {
     display: flex;
     justify-content:space-between;
+    padding: 20px;
+    border-width:1;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
 }
 
 .hardSkill-list {
@@ -125,6 +136,7 @@ div, a, header, section, footer, img, li, ul {
 }
 
 #examleWork {
+    width: 100%;
     padding: 40px 0;
     background-color: rgba(0, 0, 0, 0.4);
 }
@@ -179,6 +191,9 @@ div, a, header, section, footer, img, li, ul {
 .block-text {
     padding: 50px ;
     width: 100%;
+    border-width:1;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
 }
 
 .dot {
@@ -223,6 +238,7 @@ div, a, header, section, footer, img, li, ul {
 }
 
 #blog {
+    width: 100%;
     background-color: rgba(179, 179, 179, 0.329);
     padding: 40px 0;
 }
@@ -231,8 +247,22 @@ div, a, header, section, footer, img, li, ul {
     text-align: center;
 }
 
+.blog-text {
+    padding: 20px;
+    border-width:1;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+
 #footer {
+    width: 100%;
     padding-bottom: 20px;
+}
+
+.dream {
+    font-size: 10px;
+    text-align: center;
+    display: block;
 }
 
 .contacts {
@@ -259,13 +289,27 @@ div, a, header, section, footer, img, li, ul {
 }
 
 @media (min-width: 0px) and (max-width: 576px) {
+    body {
+        font-size: 13px;
+    }
     .container {
-        padding: 20px;
         width: 100%;
-        margin: 0 auto;
         display: block;
     }
+    .logo {
+        margin: auto auto;
+        font-size: 20px;
+    }
+    .description {
+        font-size: 15px;
+        display: block;
+        border-width:1;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+    }
     .navigation {
+        float: right;
+        width: 70%;
         margin: auto 0;
         font-size: 15px;
     }
@@ -274,13 +318,37 @@ div, a, header, section, footer, img, li, ul {
         margin: 0 auto;
         padding: 5px;
     }
+    .contacts {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+    .contacts-list {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        list-style-type: none;
+    }
     .icon-contacts {
-        height: 30px;
-        width: 30px;
+        height: 20px;
+        width: 20px;
     }
     .contacts-list-link {
         display: inline-block;
-        padding: 30px;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    .description-photo {
+        margin: 30px 0px 0px 30px;
+        padding: 10px 10px;
+        background-color: rgb(255, 255, 255);
+        height: 150px;
+        width: 150px;
+    }
+    
+    .description-portrait {
+        height: 130px;
+        width: 130px;
     }
 }
 
@@ -306,6 +374,10 @@ div, a, header, section, footer, img, li, ul {
         width: 720px;
         margin: 0 auto;
         display: block;
+    }
+    .navigation {
+        float: right;
+        margin: auto 0;
     }
 }
 
