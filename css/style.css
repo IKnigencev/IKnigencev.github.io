@@ -135,6 +135,13 @@ div, a, header, section, footer, img, li, ul {
     margin: 0 auto;
 }
 
+.list-in {
+    font-size: 15px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+    text-decoration:underline;
+}
+
 #examleWork {
     width: 100%;
     padding: 40px 0;
@@ -299,7 +306,7 @@ div, a, header, section, footer, img, li, ul {
 
 @media (min-width: 0px) and (max-width: 576px) {
     body {
-        font-size: 13px;
+        font-size: 12px;
     }
     .container {
         width: 100%;
@@ -327,6 +334,14 @@ div, a, header, section, footer, img, li, ul {
         margin: 0 auto;
         padding: 5px;
     }
+
+    .list-in {
+        font-size: 10px;
+        list-style-type: none;
+        padding: 5px 0px 5px 0px;
+        text-decoration:underline;
+    }
+
     .contacts {
         width: 70%;
         display: block;
